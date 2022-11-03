@@ -1,4 +1,5 @@
 {
+  "engines": { "node" : "14.15.0" },
     "scripts": {
       "frontend:install": "cd udagram/udagram-frontend && npm install --legacy-peer-deps",
       "frontend:build": "cd udagram/udagram-frontend && npm run build",
