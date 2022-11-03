@@ -6,8 +6,8 @@ eb create --sample udagram-api-dev
 eb use udagram-api-dev
 
 eb setenv AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID &&
+eb setenv AWS_DEFAULT_REGION=$AWS_REGION &&
 eb setenv AWS_BUCKET=$AWS_BUCKET &&
-eb setenv AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION &&
 eb setenv AWS_PROFILE=$AWS_PROFILE &&
 eb setenv AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY &&
 eb setenv DB_PORT=$DB_PORT &&
