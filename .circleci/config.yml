@@ -31,9 +31,10 @@ jobs:
           name: Deploy Frontend
           command: 'npm run frontend:deploy'
 workflows:
+  version: 2
   build:
     jobs:
       - build:
           filters:
             branches:
-              only: main
+              only: master
