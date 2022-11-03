@@ -14,7 +14,7 @@ export const config = {
   port:Number(process.env.PORT),
   dbport:Number(process.env.DB_PORT),
   dialect: "postgres",
-  aws_region: process.env.AWS_REGION,
+  aws_region: process.env.AWS_DEFAULT_REGION,
   aws_profile: process.env.AWS_PROFILE,
   aws_media_bucket: process.env.AWS_BUCKET,
   aws_access_key: process.env.AWS_ACCESS_KEY_ID,
